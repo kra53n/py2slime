@@ -22,7 +22,7 @@ def draw_button(display, action):
     display.blit(
         BUTTONS[action],
         (
-            (display.get_width() - BUTTONS["non_active"].get_width()) // 2,
+            (display.get_width() - BUTTONS["noact"].get_width()) // 2,
             display.get_height() // 2 + 10,
         )
     )
@@ -38,7 +38,7 @@ def draw_start_screen(screen, display, clock):
         display.fill((55, 33, 52))
 
         draw_title_image(display)
-        draw_button(display, "non_active")
+        draw_button(display, "noact")
 
         screen.blit(pygame.transform.scale(display, WINDOW_SIZE), (0, 0))
         pygame.display.update()

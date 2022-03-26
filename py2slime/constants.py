@@ -7,5 +7,5 @@ WINDOW_TITLE = "py2slime"
 IMAGES_PATH = "assets/images/"
 TITLE_IMAGE = pygame.image.load(IMAGES_PATH + "title_image.png")
 BUTTONS = {
-    "non_active": pygame.image.load(IMAGES_PATH + "non_active_button.png")
+    "noact": pygame.image.load(IMAGES_PATH + "noact_btn.png")
 }
