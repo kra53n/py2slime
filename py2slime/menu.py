@@ -8,6 +8,14 @@ from constants import (
 )
 
 
+class MenuButton:
+    def __init__(self):
+        pass
+
+    def draw(self):
+        pass
+
+
 def draw_title_image(display):
     display.blit(
         TITLE_IMAGE,
